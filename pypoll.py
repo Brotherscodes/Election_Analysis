@@ -104,20 +104,30 @@ for candidate_name in candidate_votes:
 
     print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
         
-if(votes > winning_count) and (vote_percentage > winning_percentage):
+    if(votes > winning_count) and (vote_percentage > winning_percentage):
+
+  
 
         # if true then set winning count= votes, and winning_percent = vote_percent.
 
-    winning_count=votes
+        winning_count=votes
 
-    winning_percentage = vote_percentage
+        winning_percentage = vote_percentage
 
         # set the winning_candidate equal to the candidates name.
 
-    winning_candidate = candidate_name
+        winning_candidate = candidate_name
 
 
-    
+winning_candidate_summary = (
+
+    f"-------------------------\n"
+    f"Winner: {winning_candidate}\n"
+    f"Winning Vote Count: {winning_count:,}\n"
+    f"Winning Percentage: {winning_percentage:.1f}%\n"
+    f"-------------------------\n")
+
+print(winning_candidate_summary)   
 
 
 
