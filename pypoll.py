@@ -35,7 +35,7 @@ winning_candidate = ""
 
 winning_count = 0
 
-winning_percent= 0
+winning_percentage= 0
 
 
 
@@ -97,8 +97,25 @@ for candidate_name in candidate_votes:
 
     vote_percentage = float(votes) / float(total_votes)*100
 
+
+# To do: print out each candidate's name, vote count, and percentage of
+
+# votes to the terminal.
+
+    print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
         
-    print(f"{candidate_name}: received {vote_percentage:.2f}% of the vote.")
+if(votes > winning_count) and (vote_percentage > winning_percentage):
+
+        # if true then set winning count= votes, and winning_percent = vote_percent.
+
+    winning_count=votes
+
+    winning_percentage = vote_percentage
+
+        # set the winning_candidate equal to the candidates name.
+
+    winning_candidate = candidate_name
+
 
     
 
