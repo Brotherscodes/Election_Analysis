@@ -49,3 +49,9 @@
  -  All information we were tasked to provide by the Colorado Board of Elections has been answered in our Produced Election Results Outcome and bulletin list above.
 
 - Congratulations to Diana Degette for being the winner of this election receiving 73.8% of votes totaling an impressive 272,892 votes.
+## Election-Audit Python Code Summary:
+    The python code provided was robust and can be used for any state wide election given the following:
+
+    1. A seperate CSV file for each election was provides
+    2. A seperate election analysis txt file
+    3. This code (with some refactoring where neccessary)can be used for any state wide election
