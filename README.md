@@ -12,7 +12,14 @@
 6. Determine what % of votes each county provided
 7. Determine the county with the largest number of votes
 8. Determine the winner of the election based on popular vote
- 
+
+## Expected Election Results Outcome:
+
+![expected output](./Images/expected_output.png)
+
+## Produced Election Results Outcome:
+![produced output](./Images/produced_outcome.png)
+
 ## Resources:
 
 - Source of election data: (election_results.csv)
@@ -20,11 +27,25 @@
 
 ## Election Results:
 
-![expected output](./Images/expected_output.png)
-
-
- ## Summary: 
-
- -  (SUMMARIZE THE RESULTS OF THE ELECTION
+ - Total number of votes cast: 369,711
  
- - (STATE HOW THIS CODE MIGHT BE ABLE TO BE USED FOR OTHER ELECTIONS(REFACTOR))
+ - Total votes and % of total votes each candidate received:
+
+        Diana DeGette: 73.8% (272,892)
+        Charles Casper Stockham: 23.0% (85,213)
+        Raymon Anthony Doane: 3.1% (11,606)
+
+ - Largest County Turnout:
+
+    `Denver`
+
+- This Elections Winning Candidate:
+
+    `Diana Degette`
+ 
+ 
+ ## Summary: 
+ 
+ -  All information we were tasked to provide by the Colorado Board of Elections has been answered in our Produced Election Results Outcome and bulletin list above.
+
+- Congratulations to Diana Degette for being the winner of this election receiving 73.8% of votes totaling an impressive 272,892 votes.
