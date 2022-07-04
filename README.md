@@ -52,6 +52,7 @@
 ## Election-Audit Python Code Summary:
     The python code provided was robust and can be used for any state wide election given the following:
 
-    1. A seperate CSV file for each election was provides
-    2. A seperate election analysis txt file
-    3. This code (with some refactoring where neccessary)can be used for any state wide election
+    1. A separate CSV file for each election was provided
+    2. A separate election analysis txt file was created
+
+    This code (with some refactoring where neccessary)can be used for any state wide election.
