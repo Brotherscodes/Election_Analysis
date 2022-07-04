@@ -37,7 +37,7 @@
 
  - Largest County Turnout:
 
-    `Denver`
+    `Denver: 82.8% (306,055)`
 
 - This Elections Winning Candidate:
 
